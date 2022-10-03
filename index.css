@@ -975,6 +975,8 @@ input:checked + label:before {
   
 /* #endregion */
 /* #region  Registro */
+
+
 .back4 {
     max-width: 2500px;
     background-image: url(assets/pcassets/Dots.svg),
@@ -1389,3 +1391,5 @@ input:checked + label:before {
   }
   
 /* #endregion */
+
+/*Codigo reciclado de angular, cada region era un componente*/
