@@ -1,0 +1,526 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>PruebaGLS</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=2">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link href="http://fonts.cdnfonts.com/css/the-bold-font" rel="stylesheet">
+  <link href="http://fonts.cdnfonts.com/css/arial-mt" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.css">              
+  <link rel="stylesheet" href="index.css">              
+
+</head>
+<body>
+    <div class="back">
+        <img
+          id="contenido"
+          src="assets/pcassets/CONTENIDO.svg"
+          alt=""
+          srcset=""
+        />
+        <img id="en" src="assets/pcassets/EN.svg" alt="" srcset="" />
+        <img id="vivo" src="assets/pcassets/VIVO.svg" alt="" srcset="" />
+        <img
+          id="flechas"
+          src="assets/pcassets/Triangulos.svg"
+          alt=""
+          srcset=""
+        />
+        <img
+          id="guitarra"
+          src="assets/pcassets/01_Guitarra.svg"
+          alt=""
+          srcset=""
+        />
+        <h1 class="titulo">Estos son los eventos en vivo de los próximos días</h1>
+      
+        <section class="mid">
+          <!-- #region  Calendario-->
+          <div class="calendario">
+            <i class="flecha fa-solid fa-chevron-left"></i>
+            <div class="card">
+              <img />
+      
+              <div class="container">
+                <h4>ARTISTA / EVENTO</h4>
+                <p>00 MARZO • 00:00</p>
+                <p class="desc">Lorem ipsum dolor sit amet</p>
+                <p class="conteo">
+                  1 <i class="fa-solid fa-comment"></i> 1
+                  <i class="fa-solid fa-heart"></i>
+                </p>
+              </div>
+            </div>
+      
+            <div class="card">
+              <img />
+              <div class="container">
+                <h4>ARTISTA / EVENTO</h4>
+                <p>00 MARZO • 00:00</p>
+                <p class="desc">Lorem ipsum dolor sit amet</p>
+                <p class="conteo">
+                  {{ comentarios }} <i class="fa-solid fa-comment"></i> {{ likes }}
+                  <i class="fa-solid fa-heart"></i>
+                </p>
+              </div>
+            </div>
+      
+            <div id="a3" class="card">
+              <img />
+              <div class="container">
+                <h4>ARTISTA / EVENTO</h4>
+                <p>00 MARZO • 00:00</p>
+                <p class="desc">Lorem ipsum dolor sit amet</p>
+                <p class="conteo">
+                  {{ comentarios }} <i class="fa-solid fa-comment"></i> {{ likes }}
+                  <i class="fa-solid fa-heart"></i>
+                </p>
+              </div>
+            </div>
+      
+            <div id="a4" class="card">
+              <img />
+              <div class="container">
+                <h4>ARTISTA / EVENTO</h4>
+                <p>00 MARZO • 00:00</p>
+                <p class="desc">Lorem ipsum dolor sit amet</p>
+                <p class="conteo">
+                  {{ comentarios }} <i class="fa-solid fa-comment"></i> {{ likes }}
+                  <i class="fa-solid fa-heart"></i>
+                </p>
+              </div>
+            </div>
+      
+            <div id="a5" class="card">
+              <img />
+              <div class="container">
+                <h4>ARTISTA / EVENTO</h4>
+                <p>00 MARZO • 00:00</p>
+                <p class="desc">Lorem ipsum dolor sit amet</p>
+                <p class="conteo">
+                  {{ comentarios }} <i class="fa-solid fa-comment"></i> {{ likes }}
+                  <i class="fa-solid fa-heart"></i>
+                </p>
+              </div>
+            </div>
+      
+            <i class="flecha fa-solid fa-chevron-right"></i>
+          </div>
+          <!-- #endregion -->
+        </section>
+      </div>
+      
+      <div class="back2">
+        <div class="header2">
+          <div class="header-titulo2"></div>
+          <img
+            id="lentes2"
+            src="assets/pcassets/06_SujetoLentes.svg"
+            alt="Lentes"
+            srcset=""
+          />
+          <img
+            class="triangulos2"
+            src="assets/pcassets/Triangulos.svg"
+            alt="LaPulpe"
+          />
+      
+          <h1 class="header-titulo2">Búsqueda <span>avanzada</span></h1>
+          <p class="header-p2">
+            Aquí podrás aplicar filtros de los eventos por categorías, horarios y
+            tipos.
+          </p>
+          <div class="botones2">
+            <div class="contenido2">
+              <div class="select" tabindex="1">
+                <input class="selectopt input" name="test" type="radio" id="opt0" checked />
+                <label for="opt0" class="option inside">Categoría</label>
+                <input class="selectopt input" name="test" type="radio" id="opt1" />
+                <label for="opt1" class="option inside">Cinematografía</label>
+                <input class="selectopt input" name="test" type="radio" id="opt2" />
+                <label for="opt2" class="option inside">Conciertos</label>
+                <input class="selectopt input" name="test" type="radio" id="opt3" />
+                <label for="opt3" class="option inside">Entrevistas</label>
+                <input class="selectopt input" name="test" type="radio" id="opt4" />
+                <label for="opt4" class="option inside">Teatro</label>
+              </div>
+      
+              <div class="select" tabindex="1">
+                <input
+                  class="selectopt input"
+                  name="test1"
+                  type="radio"
+                  id="opt69"
+                  checked
+                />
+                <label for="opt69" class="option inside">Horario</label>
+                <input class="selectopt input" name="test1" type="radio" id="opt6" />
+                <label for="opt6" class="option inside">00 Mayo 00:00</label>
+                <input class="selectopt input" name="test1" type="radio" id="opt8" />
+                <label for="opt8" class="option inside">00 Mayo 00:00</label>
+                <input class="selectopt input" name="test1" type="radio" id="opt9" />
+                <label for="opt9" class="option inside">00 Mayo 00:00</label>
+                <input class="selectopt input" name="test1" type="radio" id="opt10" />
+                <label for="opt10" class="option inside">00 Mayo 00:00</label>
+              </div>
+      
+              <div class="select" tabindex="1">
+                <input
+                  class="selectopt input"
+                  name="test2"
+                  type="radio"
+                  id="opt12"
+                  checked
+                />
+                <label for="opt12" class="option inside">Tipo de evento</label>
+                <input class="selectopt input" name="test2" type="radio" id="opt13" />
+                <label for="opt13" class="option inside">Fondos</label>
+                <input class="selectopt input" name="test2" type="radio" id="opt14" />
+                <label for="opt14" class="option inside">Recreativo</label>
+                <input class="selectopt input" name="test2" type="radio" id="opt15" />
+                <label for="opt15" class="option inside">Talento</label>
+              </div>
+      
+              <div class="select" tabindex="1">
+                <button class="btn2">Buscar ahora</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contenido-pulpe2">
+          
+          <h1 class="segundo-titulo2">
+            ¡Aprovechá nuestras promos y te LAS <span> llevamos a tu casa!</span>
+          </h1>
+          <div class="contenedor2">
+            <div class="">
+              <button class="btn2 btn2-segunda-postura">Click aquí</button>
+            </div>
+            <div class="la-pulpe2">
+              <img src="assets/pcassets/Group 3783.svg" alt="LaPulpe" />
+            </div>
+            <img
+              class="ilu2"
+              src="assets/pcassets/ilustracion.svg"
+              alt="LaPulpe"
+            />
+          </div>
+        </div>
+      </div>
+      
+      <div class="back3">
+        <h1 class="titulo3">Happy News</h1>
+        <img
+          id="sillon3"
+          src="assets/pcassets/Sujeto_Sillon.svg"
+          alt=""
+          srcset=""
+        />
+      
+        <p class="texto3">
+          Una platforma de noticias cortas, relevantes pero sobre todo positivas.
+        </p>
+        <div class="contenedor3">
+          <!-- #region Tweets -->
+      
+          <div id="" class="card3">
+            <img class="slow3" src="assets/pcassets/Ellipse 83.svg" />
+            <div class="nombre3">
+              <h2>Nombre</h2>
+            </div>
+            <div class="usuario3">
+              <h3>@jmartq</h3>
+            </div>
+            <div class="contenido3">
+              <p>
+                Vacuna contra el Corona Virus estaría lista para probarse en Humanos
+              </p>
+            </div>
+            <div class="detalles3">
+            <div class="fecha3">1:14 PM - 26 Mar 2020</div>
+            <div class="reacciones3">
+              11 Retweets 69 Likes
+              <span
+                ><i class="slow3 fa-regular fa-comment"></i> 421
+                <i class="slow3 fa-solid fa-retweet"></i> 11
+                <i class="slow3 fa-regular fa-heart"></i> 69
+              </span>
+            </div>
+          </div>
+          </div>
+          <div id="" class="card3">
+            <img class="slow3" src="assets/pcassets/Ellipse 83.svg" />
+            <div class="nombre3">
+              <h2>Nombre</h2>
+            </div>
+            <div class="usuario3">
+              <h3>@jmartq</h3>
+            </div>
+            <div class="contenido3">
+              <p>
+                Vacuna contra el Corona Virus estaría lista para probarse en Humanos
+              </p>
+            </div>
+            <div class="detalles3">
+            <div class="fecha3">1:14 PM - 26 Mar 2020</div>
+            <div class="reacciones3">
+              11 Retweets 69 Likes
+              <span
+                ><i class="slow3 fa-regular fa-comment"></i> 421
+                <i class="slow3 fa-solid fa-retweet"></i> 11
+                <i class="slow3 fa-regular fa-heart"></i> 69
+              </span>
+            </div>
+          </div>
+          </div>
+          <div id="card33" class="card3">
+            <img class="slow3" src="assets/pcassets/Ellipse 83.svg" />
+            <div class="nombre3">
+              <h2>Nombre</h2>
+            </div>
+            <div class="usuario3">
+              <h3>@jmartq</h3>
+            </div>
+            <div class="contenido3">
+              <p>
+                Vacuna contra el Corona Virus estaría lista para probarse en Humanos
+              </p>
+            </div>
+            <div class="detalles3">
+            <div class="fecha3">1:14 PM - 26 Mar 2020</div>
+            <div class="reacciones3">
+              11 Retweets 69 Likes
+              <span
+                ><i class="slow3 fa-regular fa-comment"></i> 421
+                <i class="slow3 fa-solid fa-retweet"></i> 11
+                <i class="slow3 fa-regular fa-heart"></i> 69
+              </span>
+            </div>
+          </div>
+          </div>
+          <div id="card43" class="card3">
+            <img class="slow3" src="assets/pcassets/Ellipse 83.svg" />
+            <div class="nombre3">
+              <h2>Nombre</h2>
+            </div>
+            <div class="usuario3">
+              <h3>@jmartq</h3>
+            </div>
+            <div class="contenido3">
+              <p>
+                Vacuna contra el Corona Virus estaría lista para probarse en Humanos
+              </p>
+            </div>
+            <div class="detalles3">
+            <div class="fecha3">1:14 PM - 26 Mar 2020</div>
+            <div class="reacciones3">
+              11 Retweets 69 Likes
+              <span
+                ><i class="slow3 fa-regular fa-comment"></i> 421
+                <i class="slow3 fa-solid fa-retweet"></i> 11
+                <i class="slow3 fa-regular fa-heart"></i> 69
+              </span>
+            </div>
+          </div>
+          </div>
+          <div id="card53" class="card3">
+            <img class="slow3" src="assets/pcassets/Ellipse 83.svg" />
+            <div class="nombre3">
+              <h2>Nombre</h2>
+            </div>
+            <div class="usuario3">
+              <h3>@jmartq</h3>
+            </div>
+            <div class="contenido3">
+              <p>
+                Vacuna contra el Corona Virus estaría lista para probarse en Humanos
+              </p>
+            </div>
+            <div class="detalles3">
+            <div class="fecha3">1:14 PM - 26 Mar 2020</div>
+            <div class="reacciones3">
+              11 Retweets 69 Likes
+              <span
+                ><i class="slow3 fa-regular fa-comment"></i> 421
+                <i class="slow3 fa-solid fa-retweet"></i> 11
+                <i class="slow3 fa-regular fa-heart"></i> 69
+              </span>
+            </div>
+          </div>
+          </div>
+          <div id="card63" class="card3">
+            <img class="slow3" src="assets/pcassets/Ellipse 83.svg" />
+            <div class="nombre3">
+              <h2>Nombre</h2>
+            </div>
+            <div class="usuario3">
+              <h3>@jmartq</h3>
+            </div>
+            <div class="contenido3">
+              <p>
+                Vacuna contra el Corona Virus estaría lista para probarse en Humanos
+              </p>
+            </div>
+            <div class="detalles3">
+            <div class="fecha3">1:14 PM - 26 Mar 2020</div>
+            <div class="reacciones3">
+              11 Retweets 69 Likes
+              <span
+                ><i class="slow3 fa-regular fa-comment"></i> 421
+                <i class="slow3 fa-solid fa-retweet"></i> 11
+                <i class="slow3 fa-regular fa-heart"></i> 69
+              </span>
+            </div>
+          </div>
+          </div>
+          <!-- #endregion -->
+        </div>
+        <h2 class="segundo-titulo3">
+          Recibí un resumen de noticias positivas de la semana en tu correo.
+        </h2>
+        <div id="btn3-pos">
+          <button class="btn3">Buscar ahora</button>
+        </div>
+      </div>
+      
+      <div class="back4">
+        <h1 class="titulo4">registráte</h1>
+        <div class="contenedor4">
+          <div class="redes4">
+            <img
+              class="flags24"
+              src="assets/pcassets/Triangulos.svg"
+              alt="Flags"
+              srcset=""
+            />
+            
+            <h2 class="redes-lore4">REGISTRATE CON ALGUNA RED SOCIAL</h2>
+            <img class="face4" src="assets/pcassets/Face.svg" alt="Face" />
+            <img class="insta4" src="assets/pcassets/insta.svg" alt="Face" />
+          </div>
+          <div class="formulario4">
+            <div class="info4">
+              <img
+                class="sujeto4"
+                src="assets/pcassets/01_Sujeto telefono.svg"
+                alt="Compa"
+              />
+              <img
+                class="flags4"
+                src="assets/pcassets/Triangulos.svg"
+                alt="Flags"
+                srcset=""
+              />
+      
+              <h1>¿Por qué <span>registrarme</span>?</h1>
+              <p>
+                Al dejarnos tus datos podemos notificarte cuando estén por iniciar los
+                shows en vivo, enviarte códigos de descuento especiales y una que otra
+                sorpresa.
+              </p>
+            </div>
+            <!-- #region Inputs -->
+            <div class="form">
+              <div class="form-flex">
+                <div class="form__group">
+                  <input
+                    type="text"
+                    class="form__input"
+                    id="name"
+                    placeholder="Nombre Completo"
+                    required=""
+                  />
+                  <label for="name" class="form__label">Nombre Completo</label>
+                </div>
+                <div class="form__group">
+                  <input
+                    type="number"
+                    class="form__input"
+                    id="cedula"
+                    placeholder="Cédula"
+                    required=""
+                  />
+                  <label for="cedula" class="form__label">Cédula</label>
+                </div>
+                <div class="form__group datepick">
+                  <input
+                    type="text"
+                    class="form__input"
+                    id="nacimiento"
+                    placeholder="Fecha de nacimiento"
+                    onfocus="(this.type='date')"
+                    required=""
+                  />
+                  <label for="nacimiento" class="form__label"
+                    >Fecha de Nacimiento</label
+                  >
+                </div>
+                <div class="form__group">
+                  <input
+                    type="email"
+                    class="form__input"
+                    id="email"
+                    placeholder="Email"
+                    required=""
+                  />
+                  <label for="email" class="form__label">Email</label>
+                </div>
+                <div class="form__group celular">
+                  <input
+                    type="number"
+                    class="form__input"
+                    id="celular"
+                    placeholder="Celular"
+                    required=""
+                  />
+                  <label for="celular" class="form__label">Celular</label>
+                </div>
+                <div class="form__group provincia">
+                  <input
+                    type="text"
+                    class="form__input"
+                    id="provincia"
+                    placeholder="Provincia"
+                    required=""
+                  />
+                  <label for="provincia" class="form__label">Provincia</label>
+                </div>
+              </div>
+              <div class="consiento">
+                <input
+                  type="radio"
+                  id="politica"
+                  name="Politica"
+                  value="AceptoPolitica"
+                />
+                <label for="politica"
+                  >Consiento el uso de mis datos según se detalla en este
+                  <a>Aviso de privacidad</a></label
+                ><br />
+                <input
+                  type="radio"
+                  id="correos"
+                  name="Correos"
+                  value="AceptoCorreos"
+                />
+                <label for="correos"
+                  >Deseo suscribirme para recibir información sobre futuras
+                  promociones.</label
+                ><br />
+              </div>
+              <div class="btn4-postura">
+                <button class="btn4">Enviar</button>
+              </div>
+            </div>
+            <!-- #endregion -->
+          </div>
+        </div>
+      </div>
+      
+</body>
+</html>
